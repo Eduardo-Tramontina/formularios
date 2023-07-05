@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    font-style: normal;
+    color: white;
+}
+
+
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom,rgb(3, 189, 241),rgb(46, 41, 41)  );
+}
+button{
+    color: rgb(39, 34, 34);
+}
