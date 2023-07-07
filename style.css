@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    color: white;
 }
 form{
     display: flex;
@@ -14,12 +15,53 @@ label{
 
 
 
-body{
+#cadastros{
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom,rgb(3, 189, 241),rgb(46, 41, 41)  );
+    background-image: linear-gradient(to bottom,rgb(3, 189, 241),rgb(238, 215, 215)  );
 }
 button{
     color: rgb(39, 34, 34);
+    width: 180px;
+    height: 40px;
+    border-radius: 100pc;
+    background-image: linear-gradient(white, rgb(74, 207, 255));
+
+}
+#cadastros input{
+    width:200px ;
+    height: 20px;
+    border-radius: 100pc;
+}
+#busca{
+    background-image: linear-gradient(to bottom,rgb(3, 189, 241),rgb(238, 215, 215)  );
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100pc;
+    
+}
+
+#busca img{
+    width: 20px;
+}
+#busca button{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+#busca #opa {
+    height: 40px;
+    width: 300px;
+    border-radius: 100pc;
+    font-size: 17px;
+   text-align: center;
+   box-shadow: 0px 0px 5px rgb(45, 41, 41);
+   border: none;
+   
+
+}
+
+#busca #opa::placeholder {
+    color: rgb(0, 0, 0);
 }
